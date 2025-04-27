@@ -1,7 +1,7 @@
-EXP NO:2A C PROGRAM PRINT THE LOWERCASE ENGLISH WORD CORRESPONDING TO THE NUMBER
-Aim:
+## EXP NO:2A C PROGRAM PRINT THE LOWERCASE ENGLISH WORD CORRESPONDING TO THE NUMBER
+## Aim:
 To write a C program print the lowercase English word corresponding to the number
-Algorithm:
+## Algorithm:
 1.	Start
 - Initialize an integer variable n.
 2.	Input Validation
@@ -14,7 +14,7 @@ Algorithm:
 -	Default: Print "Greater than 13"
 4.	Exit the program.
  
-Program:
+## Program:
 ```
 
 #include<stdio.h>
@@ -85,7 +85,7 @@ switch(n)
 
 
 
-Output:
+## Output:
 
 ![437305369-77be9729-fa10-4a98-a486-f983f8b12744](https://github.com/user-attachments/assets/ac53d40f-adf4-4610-a802-6923a5af79f3)
 
@@ -96,13 +96,13 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
  
-EXP NO:2B C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS     IN A SINGLE  LINE DENOTING THE FREQUENCY OF EACH DIGIT FROM 0 TO 3 .
-Aim:
+## EXP NO:2B C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS     IN A SINGLE  LINE DENOTING THE FREQUENCY OF EACH DIGIT FROM 0 TO 3 .
+## Aim:
 To write a C program to print ten space-separated integers in a single line denoting the frequency of each digit from 0 to 3.
-Algorithm:
+## Algorithm:
 1.	Start
 2.	Declare char array a[50] outer loop for each digit from 0 to 3
 3.	Initialize counter c to 0
@@ -110,7 +110,7 @@ Algorithm:
 5.	Increment h to move to the next digit
 6.	End
  
-Program:
+## Program:
 ```
 #include<stdio.h>
 #include<string.h> 
@@ -140,7 +140,7 @@ int main()
 
 
 
-Output:
+## Output:
 
 ![437306170-4ccdf6ad-4791-451d-8100-7e4cb76ffd56](https://github.com/user-attachments/assets/01644c5d-f4ac-40ed-adac-d83dec27cbed)
 
@@ -149,14 +149,14 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
-EXP NO:2C C PROGRAM TO PRINT ALL OF ITS PERMUTATIONS IN STRICT LEXICOGRAPHICAL ORDER.
-Aim:
+## EXP NO:2C C PROGRAM TO PRINT ALL OF ITS PERMUTATIONS IN STRICT LEXICOGRAPHICAL ORDER.
+## Aim:
 To write a C program to print all of its permutations in strict lexicographical order.
 
-Algorithm:
+## Algorithm:
 1.	Start
 2.	Declare variables s (pointer to an array of strings) and n (number of strings)
 
@@ -169,7 +169,7 @@ Read the number of strings n from the user Dynamically allocate memory for each 
 Free the memory allocated for each string in s Free the memory allocated for s
 7.	End
  
-Program:
+## Program:
 ```
 #include<stdio.h> 
 #include<string.h> 
@@ -237,7 +237,7 @@ int main()
 
 
 
-Output:
+## Output:
 
 ![437309784-20832d26-e515-488a-9479-ca37687dae12](https://github.com/user-attachments/assets/668576bf-c963-4bee-b836-c166c3f915c4)
 
@@ -247,14 +247,14 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
  
-EXP NO:2D C PROGRAM PRINT A PATTERN OF NUMBERS FROM 1 TO N AS
+## EXP NO:2D C PROGRAM PRINT A PATTERN OF NUMBERS FROM 1 TO N AS
 SHOWN BELOW.
-Aim:
+## Aim:
 To write a C program to print a pattern of numbers from 1 to n as shown below.
-Algorithm:
+## Algorithm:
 1.	Start
 2.	Declare integer variables n, i, j, min
 3.	Read the value of n from the user
@@ -263,7 +263,7 @@ Algorithm:
 6.	Calculate min as the minimum distance to the borders
 7.	End
  
-Program:
+## Program:
 ```
 #include<stdio.h>
 int main()
@@ -291,7 +291,7 @@ int main()
 
 
 
-Output:
+## Output:
 
 ![437308834-587442e9-4ce7-47b2-8383-58630949a8cd](https://github.com/user-attachments/assets/220ea9d5-807c-4667-83fc-aa60b9c84d7f)
 
@@ -302,16 +302,16 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
-EXP NO:2E C PROGRAM TO FIND A SQUARE  OF NUMBER USING FUNCTION WITHOUT ARGUMENTS WITH RETURN TYPE
+## EXP NO:2E C PROGRAM TO FIND A SQUARE  OF NUMBER USING FUNCTION WITHOUT ARGUMENTS WITH RETURN TYPE
 
-Aim:
+## Aim:
 
 To write a C program that calculates the square of a number using a function that does not take any arguments, but returns the square of the number.
 
-Algorithm:
+## Algorithm:
 
 1.	Start.
 2.	Define a function square() with no parameters. This function will return an integer value.
@@ -324,7 +324,7 @@ o	Return the squared value.
 o	Call the square() function and display the result.
 5.	End.
 
-Program:
+## Program:
 ```
 #include <stdio.h>
 void square();
@@ -345,7 +345,7 @@ void square(){
 
 
 
-Output:
+## Output:
 
 ![437309479-0b853f1e-53b3-4889-8cc4-2886a73de5e0](https://github.com/user-attachments/assets/6adbadf8-a2c4-40bc-9972-503f6b5fc550)
 
@@ -355,7 +355,7 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 
